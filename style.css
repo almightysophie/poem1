@@ -1,44 +1,11 @@
-body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Roboto Slab', serif;
 
-    max-width: 100%;
-	min-width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size:100% 100%;
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;}
-    
-    
     h1 {
     margin: 0;
     user-select: none;
     text-align: center;
     font-weight: 300; }
-    
-    
-    p {
-    font-weight: 300;
-    color: #546E7A;
-    user-select: none;
-    text-align: center;
-    margin: 0; }
-    
-    
-    a { 
-    text-align: center;
-    text-decoration: none;
-    color: rgb(255, 255, 255); }
-    
-  
+
     /* Navigation  */
-   
-    
     .menu {
     position: fixed;
     width: 100vw;
@@ -46,27 +13,6 @@ body {
     margin-top: 10vh;
     text-align: center;
     z-index: 2; }
-    
-    /* Menu link item */
-    .menu__link {
-    display: inline-block;
-    text-decoration: none;
-    border: 2px solid #263238;
-    color: #263238; 
-    pointer-events: auto;
-    line-height: 40px; 
-    position: relative;
-    padding: 0 50px; 
-    box-sizing: border-box;
-    margin: 0;
-    user-select: none;
-    overflow: hidden;
-    border-radius: 50px;
-    
-    
-    }
-    
-    /* Panels Style*/
     
     /* Common panel style */
     .panel {
@@ -85,7 +31,6 @@ body {
     box-sizing: border-box;
     background-color: #ECEFF1; }
     
-    
     /* for animation delay after open */
     .panel__content {
     opacity: 0;
@@ -103,40 +48,9 @@ body {
     
     .panel#home {
     z-index: 1;
-    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,#CFD8DC 100%); }
-    
-    
-    /* "Slice" */
-    
-    
-    .panel#slice, .panel#slice1,.panel#slice2,.panel#slice3 {
-    background-color: #eb8613;
-    transition: all 800ms cubic-bezier(0.190, 1.000, 0.560, 1.000);
-    transform: translate3d( 0, -100%, 0 ); }
-    
-    .panel#slice:target,  .panel#slice1:target,  .panel#slice2:target, .panel#slice3:target {
-    transform: translate3d( 0, 0, 0 ); }
-    
-    /*  "Fade"  */
-    
-    .panel#fade, .panel#fade1, .panel#fade2 {
-    background-color:  #aad806;
-    opacity: 0;
-    transition: all 800ms;
-    pointer-events: none; }
-    
-    .panel#fade:target, .panel#fade1:target, .panel#fade2:target   {
-    opacity: 1;
-    pointer-events: auto; }
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,#CFD8DC 100%); }	
 
-
-
-
-
-*{
-	margin:0;
-	padding:0;
-}
+	
 body{
 	max-width: 100%;
 	min-width: 100%;
