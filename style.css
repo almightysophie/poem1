@@ -43,7 +43,7 @@ a {
     z-index: 999;
     color: #000;
     box-sizing: border-box;
-    /* background-color: #ECEFF1; */
+   /*background-color: #ECEFF1; */
 }
 
 
@@ -316,9 +316,10 @@ li {
 
 .page .container p {
     cursor: pointer;
-    font-size: 64px;
+    font-size: 12px;
     color: #000;
     text-align: center;
+    padding: center;
 }
 
 .page .back {
@@ -326,9 +327,9 @@ li {
     width: 100vw;
     height: 100vh;
     position: relative;
-    /* display: flex;
+   display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center; 
     background-color: transparent;
 }
 
